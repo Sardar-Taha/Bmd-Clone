@@ -1,0 +1,88 @@
+* {
+    font-family: 'Futura Lt BT', sans-serif;
+}
+
+.body {
+    background: url(/images/header.e5771b99.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.navbar-nav .nav-item a{
+    color: #000000;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navbar-nav   {
+    margin-left: 100px;
+}
+
+span {
+    border-bottom: 2px solid rgb(150, 38, 139);
+}
+
+.btn {
+    background: none;
+    background: rgb(150, 38, 139);
+    color: white;
+    border: none;
+    padding: 10px 24px 10px 24px;
+    font-size: 16px;
+}
+
+button {
+    background: rgb(150, 38, 139);
+    color: white;
+    padding: 8px 24px 8px 24px;
+    font-size: 16px;
+    border: rgb(150, 38, 139);
+    border-radius: 8px !important;
+}
+
+
+button:hover {
+    background: linear-gradient(black, rgb(150, 38, 139));
+    border: 1px solid white;
+}
+
+.head {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+}
+
+.left h1 {
+    margin-top: 80px;
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    color: rgb(15, 27, 35);
+}
+
+.left p {
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 95%;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+}
+
+.left h2 {
+    margin-left: 50px;
+    color: rgb(15, 27, 35);
+    margin-top: 30px;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+}
+
+.right {
+    width: 50%;
+}
