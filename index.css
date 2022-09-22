@@ -532,6 +532,10 @@ input:focus {
   .navbar-brand img {
     width: 140% !important;
   }
+  .right h2 {
+    text-align: center !important;
+    margin-left: 0px !important;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -649,5 +653,18 @@ input:focus {
   .card-2 {
     margin-left: 40px !important;
     margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 422px) {
+  .left h1 {
+    font-size: 30px !important;
+  }
+  .imges img {
+    margin-left: 35px !important;
+  }
+  .right h2 {
+    text-align: center !important;
+    margin-left: 0px !important;
   }
 }
